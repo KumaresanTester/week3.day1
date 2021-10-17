@@ -1,14 +1,19 @@
-package org.student.week3.day1;
+package week3.day1;
 
 public class Execution {
+
 	public static void main(String[] args) {
-		Student obj = new Student();
-		obj.collegeName();
-		obj.collegeCode();
-		obj.collegeRank();
-		obj.deptName();
-		obj.studentDept();
-		obj.studentId();
-		obj.studentName();
+
+		BMW b = new BMW();
+		b.airBagEnabled();
+		b.closreDoor();
+		b.driveVehicle();
+		b.accelarate();
+		b.fillFuel();
+		b.shiftGear();
+		b.airBagEnabled();
+		
+		System.out.println("Wheel Count "+b.wheelCar);
 	}
+
 }
